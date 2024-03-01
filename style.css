@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--Eggshell);
+   line-height: 1.4;
+   color: var(--Dark-Charcoal);
+   font-size: 1.2em;
+}
+
+.container {
+    margin: 1.5rem;
+    max-width: 65%;
+    background-color: white;
+    padding: 5rem;
+    border-radius: 2.5rem;
+    
+}
+
+.container img {
+    max-width: 100%; 
+    border-radius: 2.5rem;
+    margin: 1rem;
+    
+}
+.container .heading{
+    font-size: 5em;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin: 15px;
+}
+.container .sub-heading{
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 400;
+}
+.prepare{
+   background-color: var(--Rose-White);
+   border-radius: 1rem;
+   padding: 1rem;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.prepare h6{
+    color: var(--Dark-Raspberry);
+    font-size: 2em;
+  
+}
+.prepare ul{
+    padding-left: 1.2rem;
+}
+
+.ingredients{
+    margin: 1em;   
+}
+h3{
+    font-size: 2.7em;
+    color: var(--Dark-Raspberry);   
+}
+ section ol li span{
+    color: black;
+    font-weight: 600;
+
+}
+span{
+    color: var(--Dark-Raspberry);
+    font-weight:500 ;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
